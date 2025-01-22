@@ -1,0 +1,11 @@
+{
+    "validAccess": {
+        "email": "Cooper77@yahoo.com",
+        "password": "teste@$#QA12345"
+    },
+    "invalidAccess": {
+        "email": "Cooper77",
+        "password": "teste"
+    }
+}
+

@@ -11,7 +11,7 @@ let sauceLabsConf = {
             platformName: 'Android',
             'appium:app': 'storage:filename=ebacshop (1).aab',
             'appium:deviceName': 'Samsung.*',
-            'appium:platformVersion': '10',
+            //'appium:platformVersion': '10',
             'appium:automationName': 'UiAutomator2',
             "appium:disableIdLocatorAutocompletion": true,
             'sauce:options': {
@@ -26,7 +26,7 @@ let sauceLabsConf = {
             platformName: 'iOS',
             'appium:app': 'storage:filename=LojaEBAC.zip',
             'appium:deviceName': 'iPhone Simulator',
-            'appium:platformVersion': '16.0',
+            //'appium:platformVersion': '16.0',
             'appium:automationName': 'XCUITest',
             'sauce:options': {
                 build: 'appium-build-teste-ebacshop-ios',

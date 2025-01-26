@@ -6,12 +6,13 @@ let generalConf = {
     maxInstances: 10,
     logLevel: 'info',
     waitforTimeout: 10000,
-    connectionRetryTimeout: 120000,
-    connectionRetryCount: 3,
+    connectionRetryTimeout: 180000,
+    connectionRetryCount: 5,
     framework: 'mocha',
+    logLevel: 'debug', 
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 120000
     },
     ...specsConf,
     ...reportersConf,
